@@ -1,0 +1,78 @@
+    1  pwd
+    2  cd root
+    3  cd /
+    4  ls
+    5  cd home/ubuntu/workspace
+    6  cd /
+    7  cd home/
+    8  cd ubuntu
+    9  pwd
+   10  cd workspace
+   11  mkdir intro-to-git
+   12  cd /
+   13  cd ~
+   14  cd workspace/intro-to-git/
+   15  git init
+   16  touch README.MD
+   17  C9 README.MD 
+   18  c9 README.MD 
+   19  ls
+   20  git remote add origin git@github.com:Jumookie/intro-to-git.git
+   21  git add .
+   22  git commit -m "Initialized with a readme file"
+   23  git push -u
+   24  touch mistake
+   25  git add .
+   26  git commit -m "Made a mistake."
+   27  git push -u
+   28  rm mistake
+   29  git add .
+   30  git commit -m "Fixed Mistake :)"
+   31  git push -u
+   32  cd ..
+   33  clear
+   34  cd home
+   35  ..
+   36  mkdir date-yourfirstname
+   37  rm date-yourfirstname
+   38  rdir date-yourfirstname
+   39  mkdir 08-28-18-Joshua
+   40  mkdir 08-28-18-Milcette
+   41  ..
+   42  cd ubuntu/
+   43  rmdir 08-28-18-Milcette
+   44  rmdir 08-28-18-Joshua
+   45  rmdir date-yourfirstname
+   46  ..
+   47  mkdir 08-28-18-Joshua
+   48  cd ubuntu/
+   49  cd workspace/
+   50  mkdir 08-28-18-Joshua
+   51  mkdir 08-28-18-Milcette
+   52  touch 08-28-18-Milcette/myfile.txt
+   53  cd 08-28-18-Joshua
+   54  vi 08-28-18-Joshua.txt
+   55  cat 08-28-18-Joshua.txt
+   56  ..
+   57  cd 08-28-18-Joshua/
+   58  ..
+   59  cat 08-28-18-Joshua/08-28-18-Joshua.txt
+   60  ls-l
+   61  ls/l
+   62  ls /etc
+   63  cat 08-28-18-Joshua/08-28-18-Joshua.txt
+   64  cp 08-28-18-Joshua/08-28-18-Joshua.txt 08-28-18-Milcette/08-28-18-Joshua2.txt
+   65  ls 08-28-18-Milcette/
+   66  ls-l
+   67  ls-l 08-28-18-Milcette/08-28-18-Joshua2.txt 
+   68  cp 08-28-18-Joshua/myfile.txt 08-28-18-Milcette/my2ndfile.txt
+   69  ls-l 08-28-18-Milcette/myfile.txt 
+   70  ls -l 08-28-18-Milcette/08-28-18-Joshua2.txt 
+   71  ls -l foo.txt
+   72  ls -l 08-28-18-Joshua2.txt
+   73  ls -l 08-28-18-Milcette/08-28-18-Joshua2.txt
+   74  chmod o+w 08-28-18-Milcette/08-28-18-Joshua2.txt
+   75  chmod go+rw 08-28-18-Milcette/08-28-18-Joshua2.txt
+   76  ls -l 08-28-18-Milcette/08-28-18-Joshua2.txt
+   77  vi 08-28-18-Milcette/08-28-18-Joshua2.txt 
+   78  history > Joshua-Milcette-history.txt
